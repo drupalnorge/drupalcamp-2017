@@ -1,0 +1,50 @@
+uuid: d69bce7f-50e4-403e-8c46-1e63e79d7459
+langcode: nb
+status: true
+dependencies:
+  config:
+    - filter.format.editor
+  module:
+    - ckeditor
+format: editor
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatering
+          items:
+            - Bold
+            - Italic
+        -
+          name: Lenker
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lister
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Media
+          items:
+            - Blockquote
+        -
+          name: Verktøy
+          items:
+            - Source
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: ''
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null
