@@ -1,0 +1,35 @@
+uuid: 7bf9bfdb-2a92-4edb-9bc5-59b7356cd74b
+langcode: en
+status: true
+dependencies:
+  module:
+    - camp_utils
+    - system
+  theme:
+    - drupalcamp_theme
+_core:
+  default_config_hash: VZgl9tEGO3G1S345PD2TRBtPRskJ3hGIv_AR49PHLHI
+id: contact_block
+theme: drupalcamp_theme
+region: footer
+weight: -4
+provider: null
+plugin: contact_block
+settings:
+  id: contact_block
+  label: contact_block
+  provider: camp_utils
+  label_display: '0'
+  google_url: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.144794781909!2d10.734169715681157!3d59.913144271117545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e7d879df3a9%3A0x2363c32e960440a0!2sMesh!5e0!3m2!1sen!2sus!4v1474346761703'
+  email: styret@drupalnorge.no
+  phone: '+47 971 63 043'
+  twitter: 'https://twitter.com/drupal_norge'
+  facebook: 'https://www.facebook.com/drupalnorge'
+  place: Oslo
+  bg_image: /bg-img-contact.jpg
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

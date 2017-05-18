@@ -1,0 +1,32 @@
+uuid: 07491eb8-2c56-422a-82ca-ec11dc6658e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - camp_utils
+    - system
+  theme:
+    - drupalcamp_theme
+_core:
+  default_config_hash: sUc4Ve-_0Ggyk3m_diMxG1qBf_DlbnUvk8fk-IjfmqY
+id: heroblock
+theme: drupalcamp_theme
+region: header
+weight: -6
+provider: null
+plugin: hero_block
+settings:
+  id: hero_block
+  label: 'Hero block'
+  provider: camp_utils
+  label_display: '0'
+  hero_title: 'Drupalcamp Oslo'
+  hero_subtitle: '11.-12. November'
+  photo_credit: 'Foto: Bjørnar Posse Sandboe'
+  photo_url: /oslo-1600x1000.jpg
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

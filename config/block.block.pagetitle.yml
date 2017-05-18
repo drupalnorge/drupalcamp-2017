@@ -1,0 +1,20 @@
+uuid: 23515401-e2af-48e4-8440-a0ad17575e3f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupalcamp_theme
+_core:
+  default_config_hash: UHigTPL_a0P2lVncKhM-_qffCNzQWynugZuKjgJ6bfM
+id: pagetitle
+theme: drupalcamp_theme
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

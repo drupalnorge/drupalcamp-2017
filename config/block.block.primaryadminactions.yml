@@ -1,0 +1,20 @@
+uuid: 542e4e4f-c03e-43bf-8aef-ca6eb4d7e662
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupalcamp_theme
+_core:
+  default_config_hash: kXxtnJwqtiBSsbyXKtR80kE347tkJNWwgRu6NDKxKTE
+id: primaryadminactions
+theme: drupalcamp_theme
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

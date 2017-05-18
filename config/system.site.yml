@@ -1,0 +1,14 @@
+uuid: 2fc27f02-a284-417f-9daa-abaf62cc3bba
+name: 'Drupalcamp Oslo'
+mail: styret@drupalcamp.no
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /news
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: nb
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

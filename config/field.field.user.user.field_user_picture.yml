@@ -1,0 +1,40 @@
+uuid: 323121ed-80ec-4119-b8a0-3bd53234d5ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_user_picture
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: 4AY1wSoNDRjDspU0knNEwUJGwIzTfvpt8UMBiacy4sQ
+id: user.user.field_user_picture
+field_name: field_user_picture
+entity_type: user
+bundle: user
+label: 'User picture'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

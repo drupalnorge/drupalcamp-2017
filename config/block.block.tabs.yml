@@ -1,0 +1,22 @@
+uuid: acf222e7-e2ae-4a4a-a880-1cb6d0e40a9a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupalcamp_theme
+_core:
+  default_config_hash: sOxch0woPVl_TGgSDv7GllGHR_rhc_KRw693nSy8OgM
+id: tabs
+theme: drupalcamp_theme
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

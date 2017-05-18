@@ -1,0 +1,22 @@
+uuid: eb1895d2-9b9b-4cfd-807b-26b4dc118242
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupalcamp_theme
+_core:
+  default_config_hash: 29Slgenx_dOxFnPwjFBtoyrKxKjG-uS1UBwso5YPKRI
+id: messages
+theme: drupalcamp_theme
+region: header
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility: {  }

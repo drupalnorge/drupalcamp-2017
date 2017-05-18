@@ -1,0 +1,13 @@
+uuid: 0f913990-5149-4a90-8ef5-58c38026a271
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: a5HzB3a3UJ1cRkchBd5UBHEStrh4SHTJZHkbSFwKXu4
+name: 'Featured speaker'
+type: featured_speaker
+description: 'Used for adding featured speakers'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,19 @@
+uuid: d51016ec-53b2-4b01-84c0-6c82c0cda3db
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: 3Ak_u-6XI11loKqMVc6IQ0H8MyMn0BVMPkB7XkPqAUQ
+name: News
+type: news
+description: 'Used for news articles. Typically something that goes on the front page and stuff.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

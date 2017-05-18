@@ -1,0 +1,29 @@
+uuid: 449902c2-72c3-4535-8ee8-7a5f08313d20
+langcode: en
+status: true
+dependencies:
+  module:
+    - camp_utils
+    - system
+  theme:
+    - drupalcamp_theme
+_core:
+  default_config_hash: DNMOw0_6VlnPfValnkAsSWy0p8dr9soGQf8Mz15rlOk
+id: signupblock
+theme: drupalcamp_theme
+region: footer
+weight: -5
+provider: null
+plugin: signup_block
+settings:
+  id: signup_block
+  label: 'Signup block'
+  provider: camp_utils
+  label_display: '0'
+  eventbrite_url: 'http://example.com'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
