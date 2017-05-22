@@ -23,3 +23,4 @@ table_responsive: '-1'
 table: ''
 _core:
   default_config_hash: o4CvhlDzNy7HGO7gVS-Ub9daOnPYX3La1RzndalcZzg
+langcode: nb
