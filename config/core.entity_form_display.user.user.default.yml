@@ -57,6 +57,9 @@ content:
     third_party_settings: {  }
     type: link_default
     region: content
+  google_analytics:
+    weight: 3
+    region: content
   timezone:
     weight: 1
     settings: {  }

@@ -22,6 +22,9 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
+  google_analytics:
+    weight: 3
+    region: content
   timezone:
     weight: 1
     settings: {  }
