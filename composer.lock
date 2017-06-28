@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f6f136fadf0ecdcb58c1af084014d18",
+    "content-hash": "c95e0b9ec6492eff9e9c8e54e6ce0c84",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3755,7 +3755,7 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v2.8.20",
+            "version": "v2.8.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
