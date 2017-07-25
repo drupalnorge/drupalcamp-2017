@@ -1260,7 +1260,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/coffee-8.x-1.0-beta2.zip",
-                "reference": null,
+                "reference": "8.x-1.0-beta2",
                 "shasum": "92631b9ea65298a057cc4143e0939bb156ef5e8d"
             },
             "require": {
@@ -1806,7 +1806,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/email_registration-8.x-1.0-rc5.zip",
-                "reference": null,
+                "reference": "8.x-1.0-rc5",
                 "shasum": "8e068ad37077bb3937150155ce13617d98b9b6b1"
             },
             "require": {
@@ -1913,7 +1913,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/reroute_email-8.x-1.0-beta1.zip",
-                "reference": null,
+                "reference": "8.x-1.0-beta1",
                 "shasum": "be2ac355300f49b50d381981f4a80b112b554c0c"
             },
             "require": {
@@ -1980,7 +1980,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://ftp.drupal.org/files/projects/sparkpost-8.x-2.0-beta1.zip",
-                "reference": null,
+                "reference": "8.x-2.0-beta1",
                 "shasum": "b553bab26ed458c194ed1f3c42566184ce0750cb"
             },
             "require": {
