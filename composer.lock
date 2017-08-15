@@ -2058,7 +2058,7 @@
                 "GPL-2.0+"
             ],
             "description": "The profile for drupalcamps.",
-            "time": "2017-07-08T06:56:48+00:00"
+            "time": "2017-08-10 08:01:32"
         },
         {
             "name": "drupalnorge/drupalcamp_theme",
@@ -2086,7 +2086,7 @@
                 }
             ],
             "description": "drupalcamp_theme",
-            "time": "2017-06-21T12:54:29+00:00"
+            "time": "2017-06-21 12:54:29"
         },
         {
             "name": "drush/drush",
