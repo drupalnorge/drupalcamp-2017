@@ -2038,12 +2038,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupalnorge/drupalcamp_profile.git",
-                "reference": "510600a9cce819c4068cff1de914e6cc0ea367d5"
+                "reference": "ba83dc22f452f93c9dabcff32470e70fd794c873"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_profile/zipball/510600a9cce819c4068cff1de914e6cc0ea367d5",
-                "reference": "510600a9cce819c4068cff1de914e6cc0ea367d5",
+                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_profile/zipball/ba83dc22f452f93c9dabcff32470e70fd794c873",
+                "reference": "ba83dc22f452f93c9dabcff32470e70fd794c873",
                 "shasum": ""
             },
             "require": {
@@ -2051,7 +2051,7 @@
                 "drupal/coffee": "1.0-beta2",
                 "drupal/core": "8.3.7",
                 "drupal/email_registration": "1.0-rc5",
-                "drupal/google_analytics": "2.1",
+                "drupal/google_analytics": "2.2.0",
                 "drupal/reroute_email": "1.0-beta1",
                 "drupal/sparkpost": "2.0-beta1",
                 "drupalnorge/drupalcamp_theme": "*"
@@ -2065,7 +2065,7 @@
                 "GPL-2.0+"
             ],
             "description": "The profile for drupalcamps.",
-            "time": "2017-09-12 15:54:42"
+            "time": "2017-09-26 13:28:30"
         },
         {
             "name": "drupalnorge/drupalcamp_theme",
