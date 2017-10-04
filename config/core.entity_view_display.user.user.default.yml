@@ -20,14 +20,14 @@ bundle: user
 mode: default
 content:
   field_user_about_me:
-    weight: 7
+    weight: 1
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_user_drupal_org_profile:
-    weight: 8
+    weight: 2
     label: above
     settings:
       trim_length: 80
@@ -39,7 +39,7 @@ content:
     type: link
     region: content
   field_user_picture:
-    weight: 6
+    weight: 0
     label: hidden
     settings:
       image_style: ''
@@ -48,7 +48,7 @@ content:
     type: image
     region: content
   field_user_twitter:
-    weight: 9
+    weight: 3
     label: above
     settings:
       trim_length: 80
@@ -59,10 +59,6 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-  member_for:
-    weight: 5
-    settings: {  }
-    third_party_settings: {  }
-    region: content
 hidden:
   langcode: true
+  member_for: true

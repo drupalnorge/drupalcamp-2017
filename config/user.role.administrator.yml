@@ -19,6 +19,7 @@ permissions:
   - 'administer content translation'
   - 'administer content types'
   - 'administer languages'
+  - 'administer menu'
   - 'administer nodes'
   - 'administer url aliases'
   - 'administer users'

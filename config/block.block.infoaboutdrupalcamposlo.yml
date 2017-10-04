@@ -1,0 +1,25 @@
+uuid: f5776df6-1492-45fe-ae50-d39e9663a317
+langcode: nb
+status: true
+dependencies:
+  content:
+    - 'block_content:custom_block:fc36637d-26b3-4817-87c4-19518a27cfc1'
+  module:
+    - block_content
+  theme:
+    - drupalcamp_theme
+id: infoaboutdrupalcamposlo
+theme: drupalcamp_theme
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:fc36637d-26b3-4817-87c4-19518a27cfc1'
+settings:
+  id: 'block_content:fc36637d-26b3-4817-87c4-19518a27cfc1'
+  label: 'Info om Drupal Camp Oslo'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
