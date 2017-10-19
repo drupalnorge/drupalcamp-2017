@@ -1,0 +1,24 @@
+uuid: c2d9d9bd-e0d4-4e32-afb5-eb6754ad58e1
+langcode: nb
+status: true
+dependencies:
+  config:
+    - views.view.sponsor_blocks
+  module:
+    - views
+  theme:
+    - drupalcamp_theme
+id: views_block__sponsor_blocks_block_1
+theme: drupalcamp_theme
+region: footer
+weight: 0
+provider: null
+plugin: 'views_block:sponsor_blocks-block_1'
+settings:
+  id: 'views_block:sponsor_blocks-block_1'
+  label: 'Gold sponsors'
+  provider: views
+  label_display: visible
+  views_label: 'Gold sponsors'
+  items_per_page: none
+visibility: {  }
