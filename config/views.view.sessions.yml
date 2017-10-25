@@ -63,7 +63,7 @@ display:
           grouping:
             -
               field: field_session_time
-              rendered: true
+              rendered: false
               rendered_strip: false
           row_class: ''
           default_row_class: true
