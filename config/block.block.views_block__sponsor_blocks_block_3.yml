@@ -1,5 +1,5 @@
-uuid: dc9d741f-463c-4748-92f0-9ffa1597803e
-langcode: nb
+uuid: 27c4b10d-bb7c-4750-9bc0-e6c7dbcaf831
+langcode: en
 status: true
 dependencies:
   config:
@@ -8,17 +8,17 @@ dependencies:
     - views
   theme:
     - drupalcamp_theme
-id: views_block__sponsor_blocks_block_2
+id: views_block__sponsor_blocks_block_3
 theme: drupalcamp_theme
 region: footer
-weight: -4
+weight: -3
 provider: null
-plugin: 'views_block:sponsor_blocks-block_2'
+plugin: 'views_block:sponsor_blocks-block_3'
 settings:
-  id: 'views_block:sponsor_blocks-block_2'
-  label: Sølvsponsorer
+  id: 'views_block:sponsor_blocks-block_3'
+  label: 'Bronze sponsors'
   provider: views
   label_display: visible
-  views_label: Sølvsponsorer
+  views_label: 'Bronze sponsors'
   items_per_page: none
 visibility: {  }
