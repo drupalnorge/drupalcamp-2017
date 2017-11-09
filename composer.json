@@ -13,7 +13,8 @@
         "drush/drush": "~8.1.12",
         "webflo/drupal-finder": "^0.3.0",
         "webmozart/path-util": "^2.3",
-        "drupalnorge/drupalcamp_profile": "dev-master"
+        "drupalnorge/drupalcamp_profile": "dev-master",
+        "drupal/redirect": "^1.0@beta"
     },
     "require-dev": {
     },
