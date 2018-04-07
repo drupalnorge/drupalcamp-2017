@@ -12,7 +12,8 @@
         "drupal/console": "~1.0.0",
         "drupalnorge/drupalcamp_profile": "dev-master",
         "drupal/redirect": "^1.0@beta",
-        "drush/drush": "^9@rc"
+        "drush/drush": "^9@rc",
+        "drupal/coder": "^8.2"
     },
     "require-dev": {
     },
@@ -55,12 +56,6 @@
                 "type:drupal-drush"
             ]
         },
-        "enable-patching": true,
-        "patches": {
-          "drupal/core": {
-            "SA-CORE-2018-002": "https://cgit.drupalcode.org/drupal/patch/?id=88e134084c440adf7a977f410f603e1effe795c6"
-
-          }
-        }
+        "enable-patching": true
     }
 }
