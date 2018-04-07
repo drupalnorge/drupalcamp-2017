@@ -2436,12 +2436,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupalnorge/drupalcamp_profile.git",
-                "reference": "d6151d82dd7f54524e9454dff3c237b310e9a913"
+                "reference": "b05dc2405c8c0399ae0b47831328a634bfbaf3bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_profile/zipball/d6151d82dd7f54524e9454dff3c237b310e9a913",
-                "reference": "d6151d82dd7f54524e9454dff3c237b310e9a913",
+                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_profile/zipball/b05dc2405c8c0399ae0b47831328a634bfbaf3bf",
+                "reference": "b05dc2405c8c0399ae0b47831328a634bfbaf3bf",
                 "shasum": ""
             },
             "require": {
@@ -2464,7 +2464,7 @@
                 "GPL-2.0+"
             ],
             "description": "The profile for drupalcamps.",
-            "time": "2018-04-07T13:37:08+00:00"
+            "time": "2018-04-07T17:23:12+00:00"
         },
         {
             "name": "drupalnorge/drupalcamp_theme",
@@ -2472,12 +2472,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupalnorge/drupalcamp_theme.git",
-                "reference": "f64a1b8d8a11ab52d889cda1c616bc26c69ae84b"
+                "reference": "0801ee2349aacd9cd4e449f278591b73163a98c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_theme/zipball/f64a1b8d8a11ab52d889cda1c616bc26c69ae84b",
-                "reference": "f64a1b8d8a11ab52d889cda1c616bc26c69ae84b",
+                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_theme/zipball/0801ee2349aacd9cd4e449f278591b73163a98c0",
+                "reference": "0801ee2349aacd9cd4e449f278591b73163a98c0",
                 "shasum": ""
             },
             "require": {
@@ -2492,7 +2492,7 @@
                 }
             ],
             "description": "drupalcamp_theme",
-            "time": "2018-04-07T14:08:14+00:00"
+            "time": "2018-04-07T17:19:16+00:00"
         },
         {
             "name": "drush/drush",
