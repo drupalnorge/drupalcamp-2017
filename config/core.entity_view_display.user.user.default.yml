@@ -7,7 +7,7 @@ dependencies:
     - field.field.user.user.field_user_drupal_org_profile
     - field.field.user.user.field_user_picture
     - field.field.user.user.field_user_twitter
-    - image.style.medium
+    - image.style.square
   module:
     - image
     - link
@@ -43,7 +43,7 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: medium
+      image_style: square
       image_link: ''
     third_party_settings: {  }
     type: image
