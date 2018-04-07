@@ -1,0 +1,30 @@
+uuid: f1892463-bbf3-427e-b428-ef934efc3683
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.featured_speakers
+  module:
+    - system
+    - views
+  theme:
+    - drupalcamp_theme
+id: views_block__featured_speakers_block_1
+theme: drupalcamp_theme
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:featured_speakers-block_1'
+settings:
+  id: 'views_block:featured_speakers-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
