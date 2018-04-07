@@ -1,0 +1,19 @@
+uuid: 393fb714-79b4-4a40-bff7-a99365ab7eef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_short_intro
+    - node.type.featured_speaker
+id: node.featured_speaker.field_short_intro
+field_name: field_short_intro
+entity_type: node
+bundle: featured_speaker
+label: 'Short intro'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

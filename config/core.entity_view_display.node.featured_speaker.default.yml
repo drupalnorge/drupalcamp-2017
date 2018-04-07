@@ -3,6 +3,7 @@ langcode: nb
 status: true
 dependencies:
   config:
+    - field.field.node.featured_speaker.field_short_intro
     - field.field.node.featured_speaker.field_speaker
     - node.type.featured_speaker
   module:
@@ -14,6 +15,14 @@ targetEntityType: node
 bundle: featured_speaker
 mode: default
 content:
+  field_short_intro:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
   field_speaker:
     weight: 0
     label: hidden
