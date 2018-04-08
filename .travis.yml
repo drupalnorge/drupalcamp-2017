@@ -1,0 +1,26 @@
+language: php
+php:
+  - 7.0
+
+addons:
+  apt:
+    packages:
+      - php5-cgi
+      - php5-mysql
+
+env:
+  global:
+    - DATABASE='drupal'
+    - DB_USERNAME='root'
+    - DB_ENCODE='utf8'
+
+mysql:
+  database: $DATABASE
+  username: $DB_USERNAME
+  encoding: $DB_ENCODE
+
+before_script:
+  - /bin/bash scripts/travis.sh
+
+script:
+  - composer test

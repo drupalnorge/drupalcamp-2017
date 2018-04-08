@@ -19,5 +19,6 @@ content:
     weight: 100
     region: content
 hidden:
+  field_short_intro: true
   field_speaker: true
   langcode: true
