@@ -24,6 +24,9 @@
             "url": "https://packages.drupal.org/8"
         }
     ],
+    "autoload": {
+      "psr-4": { "DrupalNorge\\Drupalcamp\\Tests\\": "tests/src" }
+    },
     "scripts": {
       "test": [
         "./vendor/bin/phpcs -p -n",
