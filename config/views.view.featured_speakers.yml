@@ -177,7 +177,7 @@ display:
           entity_field: created
           plugin_id: date
       sorts: {  }
-      title: 'Featured speakers'
+      title: Foredragsholdere
       header: {  }
       footer: {  }
       empty:
