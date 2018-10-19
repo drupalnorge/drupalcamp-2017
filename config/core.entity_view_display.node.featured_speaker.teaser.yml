@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.featured_speaker.field_short_intro
     - field.field.node.featured_speaker.field_speaker
     - node.type.featured_speaker
   module:
@@ -18,6 +19,8 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   field_short_intro: true
   field_speaker: true
