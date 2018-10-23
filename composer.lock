@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "a2d2c501e0fca961b5238a74f56d5749",
@@ -2528,12 +2528,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupalnorge/drupalcamp_profile.git",
-                "reference": "b71efcb65d859dfdf79123faa1e60367c529edd3"
+                "reference": "1b60a0d6e5c77b809b1efc8b563ca9811956a922"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_profile/zipball/b71efcb65d859dfdf79123faa1e60367c529edd3",
-                "reference": "b71efcb65d859dfdf79123faa1e60367c529edd3",
+                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_profile/zipball/1b60a0d6e5c77b809b1efc8b563ca9811956a922",
+                "reference": "1b60a0d6e5c77b809b1efc8b563ca9811956a922",
                 "shasum": ""
             },
             "require": {
@@ -2556,7 +2556,7 @@
                 "GPL-2.0+"
             ],
             "description": "The profile for drupalcamps.",
-            "time": "2018-10-19T13:29:30+00:00"
+            "time": "2018-10-23T08:25:19+00:00"
         },
         {
             "name": "drupalnorge/drupalcamp_theme",
@@ -2564,12 +2564,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupalnorge/drupalcamp_theme.git",
-                "reference": "0801ee2349aacd9cd4e449f278591b73163a98c0"
+                "reference": "3854e4d3aded2b3ddb6de70ed9ebde47ed390538"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_theme/zipball/0801ee2349aacd9cd4e449f278591b73163a98c0",
-                "reference": "0801ee2349aacd9cd4e449f278591b73163a98c0",
+                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_theme/zipball/3854e4d3aded2b3ddb6de70ed9ebde47ed390538",
+                "reference": "3854e4d3aded2b3ddb6de70ed9ebde47ed390538",
                 "shasum": ""
             },
             "require": {
@@ -2584,7 +2584,7 @@
                 }
             ],
             "description": "drupalcamp_theme",
-            "time": "2018-04-07T17:19:16+00:00"
+            "time": "2018-10-23T08:27:50+00:00"
         },
         {
             "name": "drush/drush",
