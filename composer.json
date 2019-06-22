@@ -9,7 +9,7 @@
         "composer/installers": "^v1.4.0",
         "cweagans/composer-patches": "^1.6",
         "drupal-composer/drupal-scaffold": "^2.2",
-        "drupal/console": "~1.8.0",
+        "drupal/console": "~v1.9.0",
         "drupalnorge/drupalcamp_profile": "dev-master",
         "drush/drush": "^9@rc"
     },
