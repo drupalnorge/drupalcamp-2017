@@ -1,12 +1,6 @@
 language: php
 php:
-  - 7.0
-
-addons:
-  apt:
-    packages:
-      - php5-cgi
-      - php5-mysql
+  - "7.0"
 
 env:
   global:
