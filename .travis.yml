@@ -8,6 +8,9 @@ env:
     - DB_USERNAME='root'
     - DB_ENCODE='utf8'
 
+services:
+  - mysql
+
 mysql:
   database: $DATABASE
   username: $DB_USERNAME
