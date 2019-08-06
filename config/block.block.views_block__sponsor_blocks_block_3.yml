@@ -16,9 +16,9 @@ provider: null
 plugin: 'views_block:sponsor_blocks-block_3'
 settings:
   id: 'views_block:sponsor_blocks-block_3'
-  label: 'Bronze sponsors'
+  label: Bronsesponsorer
   provider: views
   label_display: visible
-  views_label: 'Bronze sponsors'
+  views_label: Bronsesponsorer
   items_per_page: none
 visibility: {  }
