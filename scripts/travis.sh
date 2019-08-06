@@ -1,5 +1,5 @@
-npm i phantomjs-prebuilt
-./node_modules/.bin/phantomjs --webdriver=8643 &
+npm i chromedriver
+./node_modules/.bin/chromedriver --port=8643 --url-base=wd/hub &
 composer install
 php -d sendmail_path=`which true` ./vendor/bin/drush si drupalcamp_profile --locale=nb --db-url="mysql://$DB_USERNAME@127.0.0.1/$DATABASE" -y
 ./vendor/bin/drush cset system.site uuid 2fc27f02-a284-417f-9daa-abaf62cc3bba -y
