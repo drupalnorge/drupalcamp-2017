@@ -12,7 +12,7 @@ _core:
 id: contact_block
 theme: drupalcamp_theme
 region: footer
-weight: -6
+weight: -7
 provider: null
 plugin: contact_block
 settings:
