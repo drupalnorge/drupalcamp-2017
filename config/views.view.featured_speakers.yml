@@ -11,7 +11,7 @@ dependencies:
 _core:
   default_config_hash: 5TxeSDbsLVChx88cgVPOUFI_xG9jsQVp08CMlerZ848
 id: featured_speakers
-label: 'Featured speakers'
+label: Foredragsholdere
 module: views
 description: 'Featured speakers view, used on the front page.'
 tag: ''

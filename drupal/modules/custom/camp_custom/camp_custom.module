@@ -1,0 +1,30 @@
+<?php
+
+/**
+ * @file
+ * This file.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function camp_custom_theme($existing, $type, $theme, $path) {
+  return [
+    'camp_custom_ecommerce_page' => [
+      'variables' => [],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function camp_custom_preprocess_page(&$variables) {
+  $route_name = \Drupal::routeMatch()->getRouteName();
+  if ($route_name !== 'camp_custom.ecommerce_conference') {
+    return;
+  }
+  unset($variables["page"]["navigation"]);
+  unset($variables["page"]["footer"]);
+  $variables['#attached']['library'][] = 'camp_custom/hide_header';
+}

@@ -1,0 +1,4 @@
+hide_header:
+  css:
+    component:
+      css/camp-custom.css: {}

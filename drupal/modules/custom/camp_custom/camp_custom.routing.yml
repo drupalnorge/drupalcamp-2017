@@ -1,0 +1,7 @@
+camp_custom.ecommerce_conference:
+  path: '/e-commerce-conference'
+  defaults:
+    _title: 'Free one-day conference: Open source e-commerce solutions'
+    _controller: '\Drupal\camp_custom\Controller\CampCustomController::build'
+  requirements:
+    _permission: 'access content'
