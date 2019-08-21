@@ -2829,18 +2829,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupalnorge/drupalcamp_profile.git",
-                "reference": "610533d69bf09b0501e87a89155c1158333cb989"
+                "reference": "b3cbe9ae9552611590250a9c40b2ad29800e8213"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_profile/zipball/610533d69bf09b0501e87a89155c1158333cb989",
-                "reference": "610533d69bf09b0501e87a89155c1158333cb989",
+                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_profile/zipball/b3cbe9ae9552611590250a9c40b2ad29800e8213",
+                "reference": "b3cbe9ae9552611590250a9c40b2ad29800e8213",
                 "shasum": ""
             },
             "require": {
                 "drupal/admin_toolbar": "1.27.0",
                 "drupal/coffee": "1.0-beta2",
-                "drupal/core": "8.6.14",
+                "drupal/core": "^8.6.14",
                 "drupal/email_registration": "1.0.0-rc6",
                 "drupal/google_analytics": "2.3.0",
                 "drupal/redirect": "1.3.0",
@@ -2857,7 +2857,7 @@
                 "GPL-2.0+"
             ],
             "description": "The profile for drupalcamps.",
-            "time": "2019-06-01T20:12:12+00:00"
+            "time": "2019-08-21T12:25:20+00:00"
         },
         {
             "name": "drupalnorge/drupalcamp_theme",
