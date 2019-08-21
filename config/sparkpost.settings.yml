@@ -8,3 +8,4 @@ skip_cron: false
 _core:
   default_config_hash: N8Wmmhjasz6-mnZG6JsRkKTGT48w16c4u8NgRWctBdw
 langcode: nb
+api_hostname: api.sparkpost.com
