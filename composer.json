@@ -12,7 +12,7 @@
         "drupal/console": "~1.9.2",
         "drupalnorge/drupalcamp_profile": "dev-master",
         "drush/drush": "^9@rc",
-        "drupal/core": "~8.6.10",
+        "drupal/core": "~8.7.6",
         "zaporylie/composer-drupal-optimizations": "^1.1"
     },
     "require-dev": {
