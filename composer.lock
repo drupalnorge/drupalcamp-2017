@@ -3204,12 +3204,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupalnorge/drupalcamp_theme.git",
-                "reference": "c4a461c68fa7e2bc8e39401430291f61c122ce87"
+                "reference": "2c8b010ba2919ca94df00d48f5fba4317c0231ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_theme/zipball/c4a461c68fa7e2bc8e39401430291f61c122ce87",
-                "reference": "c4a461c68fa7e2bc8e39401430291f61c122ce87",
+                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_theme/zipball/2c8b010ba2919ca94df00d48f5fba4317c0231ea",
+                "reference": "2c8b010ba2919ca94df00d48f5fba4317c0231ea",
                 "shasum": ""
             },
             "require": {
@@ -3224,7 +3224,7 @@
                 }
             ],
             "description": "drupalcamp_theme",
-            "time": "2019-08-27T19:22:10+00:00"
+            "time": "2019-08-27T19:37:37+00:00"
         },
         {
             "name": "drush/drush",
