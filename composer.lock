@@ -3210,12 +3210,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupalnorge/drupalcamp_theme.git",
-                "reference": "2c8b010ba2919ca94df00d48f5fba4317c0231ea"
+                "reference": "964761124bd63af28b5906322f68132d6b91fefe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_theme/zipball/2c8b010ba2919ca94df00d48f5fba4317c0231ea",
-                "reference": "2c8b010ba2919ca94df00d48f5fba4317c0231ea",
+                "url": "https://api.github.com/repos/drupalnorge/drupalcamp_theme/zipball/964761124bd63af28b5906322f68132d6b91fefe",
+                "reference": "964761124bd63af28b5906322f68132d6b91fefe",
                 "shasum": ""
             },
             "require": {
@@ -3230,7 +3230,7 @@
                 }
             ],
             "description": "drupalcamp_theme",
-            "time": "2019-08-27T19:37:37+00:00"
+            "time": "2019-09-11T06:30:08+00:00"
         },
         {
             "name": "drush/drush",
@@ -7989,13 +7989,13 @@
             "authors": [
                 {
                     "name": "Justin Bishop",
-                    "role": "Developer",
-                    "email": "jubishop@gmail.com"
+                    "email": "jubishop@gmail.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Anthon Pang",
-                    "role": "Fork Maintainer",
-                    "email": "apang@softwaredevelopment.ca"
+                    "email": "apang@softwaredevelopment.ca",
+                    "role": "Fork Maintainer"
                 }
             ],
             "description": "PHP WebDriver for Selenium 2",
