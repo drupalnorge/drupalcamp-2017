@@ -1,3 +1,107 @@
+body.path-e-commerce-conference {
+  width: 100%;
+  padding-top: 90px;
+  background-image: url('../images/black-friday-fashion.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body.path-e-commerce-conference:before {
+  content: '';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: auto;
+  background-color: rgba(0,0,0,0.25);
+}
 body.path-e-commerce-conference header {
   display: none;
+}
+body.path-e-commerce-conference .region-content {
+  position: relative;
+  display: block;
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  padding: 15px 0 60px;
+  margin-bottom: 60px;
+}
+body.path-e-commerce-conference .page-header,
+body.path-e-commerce-conference .ingress,
+body.path-e-commerce-conference .body,
+body.path-e-commerce-conference .footer {
+  width: 920px;
+  max-width: 100%;
+  padding: 0 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body.path-e-commerce-conference .page-header {
+  line-height: 1.4em;
+  text-align: center;
+  border-bottom: none;
+}
+body.path-e-commerce-conference .ingress {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #eee;
+}
+body.path-e-commerce-conference .body a,
+body.path-e-commerce-conference .footer a{
+  border-bottom: 2px dotted;
+  transition: ease color .3s;
+}
+body.path-e-commerce-conference a:hover {
+  text-decoration: none;
+}
+body.path-e-commerce-conference .body h2,
+body.path-e-commerce-conference .body h3 {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1em 0;
+}
+body.path-e-commerce-conference .body h2 {
+  text-align: center;
+  padding-bottom: 0.8em;
+  position: relative;
+}
+body.path-e-commerce-conference .body h2:after {
+  content: '';
+  width: 100px;
+  border-bottom: 5px solid #337ab7;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -50px;
+}
+body.path-e-commerce-conference .body h3 {
+  font-size: 20px;
+}
+#speakers img {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+#speakers .text-container {
+  font-size: 14px;
+  margin-bottom: 1em;
+}
+body.path-e-commerce-conference .footer {
+  padding: 30px;
+}
+
+body.path-e-commerce-conference footer.footer {
+  border-top: none;
 }
