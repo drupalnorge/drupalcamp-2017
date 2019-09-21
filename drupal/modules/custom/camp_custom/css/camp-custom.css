@@ -105,3 +105,17 @@ body.path-e-commerce-conference .footer {
 body.path-e-commerce-conference footer.footer {
   border-top: none;
 }
+body.path-e-commerce-conference .view-sessions h2::after {
+  display: none;
+}
+body.path-e-commerce-conference .view-sessions h2 {
+  margin: 20px 0 10px 0;
+  position: inherit;
+  text-align: inherit;
+}
+body.path-e-commerce-conference .view-sessions h3 {
+  margin: 20px 20px 10px 0;
+}
+body.path-e-commerce-conference .view-sessions .attachment-after {
+  display: none;
+}

@@ -11,7 +11,9 @@
 function camp_custom_theme($existing, $type, $theme, $path) {
   return [
     'camp_custom_ecommerce_page' => [
-      'variables' => [],
+      'variables' => [
+        'view' => [],
+      ],
     ],
   ];
 }
