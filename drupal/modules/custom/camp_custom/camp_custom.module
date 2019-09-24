@@ -5,6 +5,8 @@
  * This file.
  */
 
+use Drupal\Core\Url;
+
 /**
  * Implements hook_theme().
  */
@@ -29,4 +31,15 @@ function camp_custom_preprocess_page(&$variables) {
   unset($variables["page"]["navigation"]);
   unset($variables["page"]["footer"]);
   $variables['#attached']['library'][] = 'camp_custom/hide_header';
+}
+
+/**
+ * Implements hook_metatags_alter().
+ */
+function camp_custom_metatags_alter(array &$metatags, array &$context) {
+  $route_name = \Drupal::routeMatch()->getRouteName();
+  if ($route_name !== 'camp_custom.ecommerce_conference') {
+    return;
+  }
+  $metatags['og_image'] = Url::fromUserInput('/modules/custom/camp_custom/ecommerce-image.jpg')->toString();
 }
