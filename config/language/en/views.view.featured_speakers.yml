@@ -1,4 +1,22 @@
+label: 'Featured speakers'
+description: 'Featured speakers view, used on the front page.'
 display:
   default:
+    display_title: Master
     display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      fields:
+        title:
+          separator: ', '
       title: 'Featured speakers'
+      empty:
+        title:
+          title: ' '
+  block_1:
+    display_title: Block
