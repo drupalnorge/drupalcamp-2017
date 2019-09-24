@@ -42,4 +42,7 @@ function camp_custom_metatags_alter(array &$metatags, array &$context) {
     return;
   }
   $metatags['og_image'] = Url::fromUserInput('/modules/custom/camp_custom/ecommerce-image.jpg')->toString();
+  $metatags['twitter_cards_type'] = 'photo';
+  $metatags['twitter_cards_title'] = t('Free one-day conference: Open source e-commerce solutions');
+  $metatags['twitter_cards_image'] = Url::fromUserInput('/modules/custom/camp_custom/ecommerce-image.jpg')->toString();
 }
