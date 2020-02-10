@@ -2259,7 +2259,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.20",
-                    "datestamp": "1561055630",
+                    "datestamp": "1574417581",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2321,7 +2321,11 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta2",
-                    "datestamp": "1477414741"
+                    "datestamp": "1477414741",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -2957,7 +2961,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.3",
-                    "datestamp": "1531469021",
+                    "datestamp": "1548968580",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3020,7 +3024,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.10",
-                    "datestamp": "1567099985",
+                    "datestamp": "1576870683",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3132,7 +3136,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0",
-                    "datestamp": "1513342685",
+                    "datestamp": "1550478485",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3141,7 +3145,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -3180,7 +3184,7 @@
             "description": "Reroutes emails send from the site to a predefined email. Useful for test sites.",
             "homepage": "https://www.drupal.org/project/reroute_email",
             "support": {
-                "source": "http://cgit.drupalcode.org/reroute_email"
+                "source": "https://git.drupalcode.org/project/reroute_email"
             }
         },
         {
@@ -3264,7 +3268,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.5",
-                    "datestamp": "1537557481",
+                    "datestamp": "1577708583",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4336,18 +4340,18 @@
             "authors": [
                 {
                     "name": "Greg Beaver",
-                    "role": "Helper",
-                    "email": "cellog@php.net"
+                    "email": "cellog@php.net",
+                    "role": "Helper"
                 },
                 {
                     "name": "Andrei Zmievski",
-                    "role": "Lead",
-                    "email": "andrei@php.net"
+                    "email": "andrei@php.net",
+                    "role": "Lead"
                 },
                 {
                     "name": "Stig Bakken",
-                    "role": "Developer",
-                    "email": "stig@php.net"
+                    "email": "stig@php.net",
+                    "role": "Developer"
                 }
             ],
             "description": "More info available on: http://pear.php.net/package/Console_Getopt",
@@ -4390,8 +4394,8 @@
             "authors": [
                 {
                     "name": "Christian Weiske",
-                    "role": "Lead",
-                    "email": "cweiske@php.net"
+                    "email": "cweiske@php.net",
+                    "role": "Lead"
                 }
             ],
             "description": "Minimal set of PEAR core files to be used as composer dependency",
@@ -5859,16 +5863,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v3.4.34",
+            "version": "v3.4.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "a5d46a33e8649ba802cebe520d188b04385572a2"
+                "reference": "f3abd07a56111ebe6a1ad6f1cbc23e4f8983f8f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/a5d46a33e8649ba802cebe520d188b04385572a2",
-                "reference": "a5d46a33e8649ba802cebe520d188b04385572a2",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/f3abd07a56111ebe6a1ad6f1cbc23e4f8983f8f5",
+                "reference": "f3abd07a56111ebe6a1ad6f1cbc23e4f8983f8f5",
                 "shasum": ""
             },
             "require": {
@@ -5909,7 +5913,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-11-03T02:12:45+00:00"
+            "time": "2020-01-04T12:05:51+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -6178,16 +6182,16 @@
         },
         {
             "name": "symfony/polyfill-php70",
-            "version": "v1.12.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php70.git",
-                "reference": "54b4c428a0054e254223797d2713c31e08610831"
+                "reference": "af23c7bb26a73b850840823662dda371484926c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/54b4c428a0054e254223797d2713c31e08610831",
-                "reference": "54b4c428a0054e254223797d2713c31e08610831",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/af23c7bb26a73b850840823662dda371484926c4",
+                "reference": "af23c7bb26a73b850840823662dda371484926c4",
                 "shasum": ""
             },
             "require": {
@@ -6197,7 +6201,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -6233,7 +6237,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
