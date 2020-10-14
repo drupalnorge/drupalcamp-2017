@@ -16,6 +16,10 @@ mysql:
   username: $DB_USERNAME
   encoding: $DB_ENCODE
 
+before_install:
+  - nvm install 12
+  - nvm use 12
+
 before_script:
   - /bin/bash scripts/travis.sh
 

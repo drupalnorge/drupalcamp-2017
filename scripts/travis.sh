@@ -1,5 +1,4 @@
-nvm install 12
-nvm use 12
+set -eu
 npm i chromedriver
 ./node_modules/.bin/chromedriver --port=8643 --url-base=wd/hub &
 composer install
