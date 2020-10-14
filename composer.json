@@ -8,11 +8,11 @@
     "require": {
         "composer/installers": "^v1.4.0",
         "cweagans/composer-patches": "^1.6",
-        "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/console": "~1.9.2",
         "drupalnorge/drupalcamp_profile": "dev-master",
         "drush/drush": "^9@rc",
-        "drupal/core": "^8.7",
+        "drupal/core-composer-scaffold": "~8.8.0",
+        "drupal/core-recommended": "~8.8.0",
         "zaporylie/composer-drupal-optimizations": "^1.1",
         "drupal/metatag": "^1.10"
     },
@@ -50,6 +50,14 @@
       ]
     },
     "extra": {
+        "drupal-scaffold": {
+          "locations": {
+            "web-root": "drupal/"
+          },
+          "allowed-packages": [
+            "drupal/core"
+          ]
+        },
         "installer-paths": {
             "drupal/core": [
                 "drupal/core"
