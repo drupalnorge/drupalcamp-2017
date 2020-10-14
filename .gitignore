@@ -9,3 +9,5 @@
 /drupal/sites/*/settings.local.php
 /.idea/
 /drupal/sites/*/files
+/.editorconfig
+/.gitattributes
