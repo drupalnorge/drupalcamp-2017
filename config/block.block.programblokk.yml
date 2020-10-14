@@ -1,0 +1,31 @@
+uuid: be8785ff-7cbc-4766-8320-3dbd2df93d65
+langcode: nb
+status: true
+dependencies:
+  content:
+    - 'block_content:custom_block:246137e6-98f6-40a6-b57d-ce2daa744263'
+  module:
+    - block_content
+    - system
+  theme:
+    - drupalcamp_theme
+id: programblokk
+theme: drupalcamp_theme
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:246137e6-98f6-40a6-b57d-ce2daa744263'
+settings:
+  id: 'block_content:246137e6-98f6-40a6-b57d-ce2daa744263'
+  label: 'Here are some of the confirmed speakers'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /program
+    negate: false
+    context_mapping: {  }
