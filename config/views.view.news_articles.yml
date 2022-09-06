@@ -237,7 +237,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: News
+      title: 'Siste nytt'
       header: {  }
       footer: {  }
       empty: {  }

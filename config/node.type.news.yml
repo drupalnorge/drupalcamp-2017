@@ -10,7 +10,7 @@ third_party_settings:
     parent: ''
 _core:
   default_config_hash: 3Ak_u-6XI11loKqMVc6IQ0H8MyMn0BVMPkB7XkPqAUQ
-name: News
+name: 'Siste nytt'
 type: news
 description: 'Used for news articles. Typically something that goes on the front page and stuff.'
 help: ''

@@ -20,8 +20,8 @@ settings:
   label: 'Hero block'
   provider: camp_utils
   label_display: '0'
-  hero_title: 'Drupalcamp Oslo'
-  hero_subtitle: '30. okt - 1. nov'
+  hero_title: 'Drupalcamp Oslo 2021'
+  hero_subtitle: '29. - 30. okt'
   photo_credit: 'Foto: Bjørnar Posse Sandboe'
   photo_url: /oslo-1600x1000.jpg
 visibility:
