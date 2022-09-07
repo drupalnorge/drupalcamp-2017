@@ -20,7 +20,7 @@ settings:
   label: 'Signup block'
   provider: camp_utils
   label_display: '0'
-  eventbrite_url: 'https://www.eventbrite.com/e/drupalcamp-oslo-2020-tickets-111859288142'
+  eventbrite_url: 'https://www.eventbrite.com/e/drupalcamp-oslo-2022-tickets-414528454767'
 visibility:
   request_path:
     id: request_path

@@ -1,6 +1,6 @@
 uuid: dc9d741f-463c-4748-92f0-9ffa1597803e
 langcode: nb
-status: true
+status: false
 dependencies:
   config:
     - views.view.sponsor_blocks
