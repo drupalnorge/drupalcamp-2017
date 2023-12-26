@@ -14,8 +14,8 @@ additional_hostnames:
     - oslo2023
 additional_fqdns: []
 database:
-    type: mariadb
-    version: "10.4"
+    type: mysql
+    version: "5.7"
 use_dns_when_possible: true
 composer_version: "1"
 web_environment: []
